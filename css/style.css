@@ -1,6 +1,7 @@
 body {
     /* display: grid; */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
     /* padding-left: 10%;
     padding-right: 10%; */
 }
@@ -59,7 +60,7 @@ i {
 [class^="fa-"], [class*=" fa-"] {
     display: inline-block;
     width: 100%;
-    color: lightgray;
+    color: lightslategrey;
 }
 
 .image-first {
