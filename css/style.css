@@ -1,0 +1,70 @@
+body {
+    /* display: grid; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    margin-right: 0.5rem !important;
+}
+
+a {
+    font-weight: bolder;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+.navbar a:link{
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+.navbar a:visited{
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+.navbar a:hover{
+    /* background-color: orange; */
+    text-decoration: none;
+    font-weight: bold;
+    color: lightslategrey;
+}
+
+.navbar-brand-img {
+    width: 30%;
+    height: 30%;
+    /* padding: 16px; */
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+i {
+    text-align: center;
+    font-size: 5em;
+    padding-bottom: 0.5rem;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+    display: inline-block;
+    width: 100%;
+    color: lightgray;
+}
+
+.image-first {
+    display: inline;
+    width: 100%;
+    max-height: 710px;
+    
+}
