@@ -92,3 +92,12 @@ i {
   padding-left: 1rem;
   padding-bottom: 1rem;
 }
+
+.fixed-top-compensation::before {
+  display: block;
+  content: " ";
+  margin-top: -4.4rem;
+  height: 4.4rem;
+  visibility: hidden;
+  pointer-events: none;
+}
