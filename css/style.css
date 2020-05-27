@@ -1,81 +1,94 @@
 body {
-    /* display: grid; */
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-family: 'Josefin Sans', sans-serif;
-    /* padding-left: 10%;
+  /* display: grid; */
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+  /* padding-left: 10%;
     padding-right: 10%; */
 }
 
 nav {
-    background-color: white;
+  background-color: white;
 }
 
 .navbar-brand {
-    margin-right: 0.5rem !important;
+  margin-right: 0.5rem !important;
 }
 
 a {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: lightslategrey;
+.navbar a {
+  text-decoration: none;
+  color: lightslategrey;
 }
 
-.navbar a:link{
-    text-decoration: none;
-    color: lightslategrey;
+.navbar a:link {
+  text-decoration: none;
+  color: lightslategrey;
 }
 
-.navbar a:visited{
-    text-decoration: none;
-    color: lightslategrey;
+.navbar a:visited {
+  text-decoration: none;
+  color: lightslategrey;
 }
 
-.navbar a:hover{
-    /* background-color: orange; */
-    text-decoration: none;
-    font-weight: bold;
-    color: lightslategrey;
+.navbar a:hover {
+  /* background-color: orange; */
+  text-decoration: none;
+  font-weight: bold;
+  color: lightslategrey;
 }
 
 .navbar-brand-img {
-    width: 30%;
-    height: 30%;
-    /* padding: 16px; */
+  width: 30%;
+  height: 30%;
+  /* padding: 16px; */
 }
 
 .row {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 i {
-    text-align: center;
-    font-size: 5em;
-    padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 5em;
+  padding-bottom: 0.5rem;
 }
 
-[class^="fa-"], [class*=" fa-"] {
-    display: inline-block;
-    width: 100%;
-    color: lightslategrey;
+[class^="fa-"],
+[class*=" fa-"] {
+  display: inline-block;
+  width: 100%;
+  color: lightslategrey;
 }
 
 .image-first {
-    position: relative;
-    width: 100%;
-    padding-top: 3.5rem;
-    
-}
-
-
-.btn {
-    height: 2rem;
+  position: relative;
+  width: 100%;
+  padding-top: 3.5rem;
 }
 
 .login-link {
-    text-align: center;
+  text-align: center;
+  color: white;
 }
 
+#login-text {
+  color: white;
+}
+
+/* #login-button {
+  background-color: #ff7f2a;
+} */
+
+.card {
+  width: 18rem;
+}
+
+.partners-images {
+  width: 10rem;
+  padding-left: 3rem;
+  padding-bottom: 1 rem;
+}
