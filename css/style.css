@@ -88,9 +88,10 @@ i {
 }
 
 .partners-images {
-  width: 15rem;
+  /* width: 15rem; */
   padding-left: 1rem;
   padding-bottom: 1rem;
+  max-width: 100%;
 }
 
 .fixed-top-compensation::before {
