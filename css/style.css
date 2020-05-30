@@ -1,7 +1,7 @@
 body {
   /* display: grid; */
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* padding-left: 10%;
     padding-right: 10%; */
 }
@@ -101,4 +101,17 @@ i {
   height: 4.4rem;
   visibility: hidden;
   pointer-events: none;
+}
+.about-us {
+  width: 100%;
+  /* height: 22.5rem; */
+  color: white;
+  background-color: #a51218;
+}
+
+#icontry {
+  -webkit-text-stroke: 0.5rem #ae333f; /* width and color */
+  color: white;
+  font-size: 15rem;
+  text-align: center;
 }
